@@ -6,18 +6,61 @@
   <title>Summer Sale</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <style>
+     .font-lato{
+       font-family: 'Lato', sans-serif;
+      }
+  </style>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            pink:'#E527B2',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
-<body>
-  <header>
-
+<body class="font-lato">
+  <header class="bg-[#F9F6E2]">
+         <div class="grid grid-cols-2 font-bold mx-auto">
+          <div class="flex flex-col justify-center items-center gap-10 text-black">
+            <h3 class="text-2xl">---SALE FEVER---</h3>
+            <p class="text-5xl ">Purchase TK 200 or above & get <span class="text-pink">20% off</span></p>
+            <div class="flex gap-4">
+             <p class="flex items-center">Use Promo Code</p>
+             <p class="bg-pink h-9 w-28 text-center text-white rounded-md pt-2">SELL200</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Summer 1.png" alt="">
+          </div>
+         </div>
   </header>
 
   <main>
+    <section>
+      <!-- shoping section-->
+      <div>
 
+      </div>
+
+      <!-- payment section -->
+      <div>
+
+      </div>
+    </section>
   </main>
 
   <script src=""></script>
-  
+
 </body>
 </html>
